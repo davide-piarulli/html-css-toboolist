@@ -18,20 +18,70 @@
 
   <main>
     <!-- Sezione pulsanti -->
-    <section class="add-bar">
-      <div class="add-task">Add Task</div>
-      <div class="add-section">Add Section</div>
-    </section>
+    <div class="container-up">
+      <section class="add-bar">
+        <div class="add-task">Add Task</div>
+        <div class="add-section">Add Section</div>
+      </section>
+    </div>
     <!-- Sezione pulsanti -->
 
     <!-- todo list -->
-    <section class="boolist">
-      <div class="todo">
-        <nav>
-          
+    <div class="container-down">
+      <section class="todolist">
+        <!-- new task -->
+        <nav class="task">
+          <ul>&#9660; <strong>New Task</strong>
+            <li>
+              <span class="check">&#10003;</span> Quarterly Newsletter
+              <span class="badge" id="editorial">Editorial</span>
+            </li>
+          </ul>
         </nav>
-      </div>
-    </section>
+        <!-- new task -->
+        <!-- upcoming -->
+        <nav class="task">
+          <ul>&#9660; <strong>Today</strong>
+            <li>
+              <span class="check">&#10003;</span> Recruiting blog post
+              <span class="badge" id="editorial">Editorial</span>
+            </li>
+            <li>
+              <span class="check">&#10003;</span> Mobile app launch
+              <span class="badge" id="goals">Q1 Goals</span>
+            </li>
+            <li>
+              <span class="check">&#10003;</span> Interview John H.
+              <span class="badge" id="recruiting">Recruiting</span>
+            </li>
+            <li>
+              <span class="check">&#10003;</span> Summit update to mobile storefronts
+              <span class="badge" id="mobile">Mobile</span>
+            </li>
+          </ul>
+        </nav>
+        <!-- upcoming -->
+        <nav class="task">
+          <ul>&#9660; <strong>Upcoming</strong>
+            <li>
+              <span class="check">&#10003;</span> Schedule meeting with Alex
+            </li>
+            <li>
+              <span class="check">&#10003;</span> Homepage refresh
+              <span class="badge" id="website">Website</span>
+            </li>
+            <li>
+              <span class="check">&#10003;</span> Onboard new Sales team members
+              <span class="badge" id="sales">sales</span>
+            </li>
+            <li>
+              <span class="check">&#10003;</span> Review editorial calendar
+              <span class="badge" id="editorial">editorial</span>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </div>
     <!-- todo list -->
   </main>
 </body>
