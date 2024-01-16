@@ -16,7 +16,12 @@ header{
 }
 
 header img{
-  float: left;
+  vertical-align: middle;
+}
+
+header h1{
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .container-up{
@@ -45,6 +50,7 @@ header img{
   color: white;
   border-radius: 5px;
   margin: 15px 40px;
+  text-align: center;
 }
 .add-section{
   width: 100px;
@@ -54,6 +60,7 @@ header img{
   border: 1px solid grey;
   border-radius: 5px;
   margin: 15px 40px;
+  text-align: center;
 }
 .task{
   padding-bottom: 20px;
@@ -68,7 +75,7 @@ ul{
 }
 
 li{
-  margin: 10px;
+  margin: 15px;
 }
 
 .check{
@@ -90,27 +97,21 @@ li{
   padding: 5px;
   font-size: .7em;
 }
-
 #editorial{
   background-color: #44abea;
 }
-
 #goals{
   background-color: #9c72e4;
 }
-
 #recruiting{
   background-color: #64c0a9;
 }
-
 #mobile{
   background-color: #f29e33;
 }
-
 #website{
   background-color: #d863a1;
 }
-
 #sales{
   background-color: #b0c926;
 }
