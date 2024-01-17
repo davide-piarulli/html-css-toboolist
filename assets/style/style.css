@@ -9,6 +9,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h3 {
+  font-size: 1.5rem;
+}
+
 header {
   padding: 10px 20px;
   background-color: white;
@@ -38,6 +42,7 @@ header span {
   background-color: white;
   margin: auto;
   border-radius: 0 0 8px 8px;
+  padding: 40px;
 }
 
 .btn {
@@ -73,10 +78,6 @@ header span {
   padding-bottom: 20px;
 }
 
-.todolist {
-  padding: 40px;
-}
-
 ul {
   list-style: none;
 }
@@ -85,13 +86,12 @@ li {
   margin: 15px;
 }
 
-.task ul::before{
+.task h3::before {
   content: '\25BE';
-  padding-right: 3px;
-  font-size: 25px;
+  padding-right: 5px;
 }
 
-.circle::before{
+.circle::before {
   display: inline-block;
   width: 15px;
   height: 15px;
@@ -101,13 +101,13 @@ li {
   font-size: .7rem;
 }
 
-.circle.checked::before{
+.circle.checked::before {
   border: 1px solid green;
   color: green;
   content: '\2713';
 }
 
-.circle.unchecked::before{
+.circle.unchecked::before {
   border: 1px solid rgb(255, 0, 0);
   color: red;
   content: '\2717';
