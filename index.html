@@ -13,7 +13,7 @@
   <header>
     <div>
       <img src="assets/img/Logo.png" alt="Logo toobolist">
-      <h1>Toboolist</h1>
+      <span>Toboolist</span>
     </div>
   </header>
   <!-- /HEADER -->
@@ -21,9 +21,9 @@
   <main>
     <!-- Sezione pulsanti -->
     <div class="container-up">
-      <section class="add-bar">
-        <button class="add-task">Add Task</button>
-        <button class="add-section">Add Section</button>
+      <section>
+        <button class="btn btn-filled">Add Task</button>
+        <button class="btn btn-empty">Add Section</button>
       </section>
     </div>
     <!-- Sezione pulsanti -->
@@ -33,9 +33,9 @@
       <section class="todolist">
         <!-- new task -->
         <nav class="task">
-          <ul>&#9660; <strong>New Task</strong>
+          <ul><strong>New Task</strong>
             <li>
-              <span class="check">&#10003;</span> Quarterly Newsletter
+              <span class="circle checked"></span> Quarterly Newsletter
               <span class="badge" id="editorial">Editorial</span>
             </li>
           </ul>
@@ -43,21 +43,21 @@
         <!-- new task -->
         <!-- today -->
         <nav class="task">
-          <ul>&#9660; <strong>Today</strong>
+          <ul><strong>Today</strong>
             <li>
-              <span class="check">&#10003;</span> Recruiting blog post
+              <span class="circle checked"></span> Recruiting blog post
               <span class="badge" id="editorial">Editorial</span>
             </li>
             <li>
-              <span class="check">&#10003;</span> Mobile app launch
+              <span class="circle checked"></span> Mobile app launch
               <span class="badge" id="goals">Q1 Goals</span>
             </li>
             <li>
-              <span class="cross">&#215;</span> Interview John H.
+              <span class="circle unchecked"></span> Interview John H.
               <span class="badge" id="recruiting">Recruiting</span>
             </li>
             <li>
-              <span class="check">&#10003;</span> Summit update to mobile storefronts
+              <span class="circle checked"></span> Summit update to mobile storefronts
               <span class="badge" id="mobile">Mobile</span>
             </li>
           </ul>
@@ -65,20 +65,20 @@
         <!-- today -->
         <!-- upcoming -->
         <nav class="task">
-          <ul>&#9660; <strong>Upcoming</strong>
+          <ul><strong>Upcoming</strong>
             <li>
-              <span class="cross">&#215;</span> Schedule meeting with Alex
+              <span class="circle unchecked"></span> Schedule meeting with Alex
             </li>
             <li>
-              <span class="check">&#10003;</span> Homepage refresh
+              <span class="circle checked"></span> Homepage refresh
               <span class="badge" id="website">Website</span>
             </li>
             <li>
-              <span class="check">&#10003;</span> Onboard new Sales team members
+              <span class="circle checked"></span> Onboard new Sales team members
               <span class="badge" id="sales">Sales</span>
             </li>
             <li>
-              <span class="check">&#10003;</span> Review editorial calendar
+              <span class="circle checked"></span> Review editorial calendar
               <span class="badge" id="editorial">Editorial</span>
             </li>
           </ul>
