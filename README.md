@@ -1,4 +1,5 @@
 Toboolist
+![toboolist preview](https://github.com/user-attachments/assets/1fbdfaab-4ce5-4ce1-9de0-85e7561fef1c)
 ===
 Esercizio
 Ricreiamo una TodoList seguendo il layout in allegato.
